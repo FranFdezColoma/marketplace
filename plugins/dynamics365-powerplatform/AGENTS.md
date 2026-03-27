@@ -4,7 +4,7 @@ This file provides guidance to AI Agents when working with the **power-platform-
 
 ## What This Plugin Is
 
-A professional development plugin by Capgemini for teams building on **Microsoft Power Platform**, **Dataverse**, and **Dynamics 365**. Provides three specialized agents and eleven skills covering the full development lifecycle: architecture design, pro code development, and technical documentation.
+A professional development plugin by Fran for teams building on **Microsoft Power Platform**, **Dataverse**, and **Dynamics 365**. Provides three specialized agents and eleven skills covering the full development lifecycle: architecture design, pro code development, and technical documentation.
 
 **Compatible with**: GitHub Copilot CLI and Claude Code (AgentSkills standard).
 

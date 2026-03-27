@@ -47,7 +47,7 @@ Usa `AskUserQuestion` si la información no está clara:
 ```powershell
 # Crear directorio y proyecto
 $componentName = "src_CustomerRating"  # Nombre del componente
-$namespace = "Capgemini"
+$namespace = "Fran"
 
 New-Item -ItemType Directory -Force -Path "./pcf/$componentName"
 cd "./pcf/$componentName"
@@ -67,7 +67,7 @@ Genera el `ControlManifest.Input.xml`:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="Capgemini" constructor="src_CustomerRating" 
+  <control namespace="Fran" constructor="src_CustomerRating" 
            version="1.0.0" display-name-key="src_CustomerRating_Display_Key"
            description-key="src_CustomerRating_Desc_Key" 
            control-type="standard" preview-image="imgs/preview.png">

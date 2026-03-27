@@ -1,4 +1,4 @@
-# Dataverse Patterns — Mejores Prácticas (Capgemini)
+# Dataverse Patterns — Mejores Prácticas (Fran)
 
 Referencia de patrones y mejores prácticas para desarrollo pro code en Dataverse, Dynamics 365 y Power Platform.
 
@@ -167,7 +167,7 @@ async function* getAllRecords<T>(
 ### Form Script con Error Handling
 
 ```typescript
-namespace Capgemini.Sales.Opportunity {
+namespace Fran.Sales.Opportunity {
     export async function onFormLoad(
         executionContext: Xrm.Events.EventContext
     ): Promise<void> {

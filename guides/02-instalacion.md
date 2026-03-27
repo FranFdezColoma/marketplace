@@ -9,7 +9,7 @@
 - **Licencia GitHub Copilot** (Pro, Business o Enterprise)
 - **GitHub CLI** — solicitar autorización en Service Central
 - **PowerShell 7.0+** — solicitar autorización en Service Central
-- **Node.js v18+** (recomendado v22+, disponible en el Marketplace de Capgemini)
+- **Node.js v18+** (recomendado v22+, disponible en el Marketplace de Fran)
 - **npm v9+**
 
 ```powershell

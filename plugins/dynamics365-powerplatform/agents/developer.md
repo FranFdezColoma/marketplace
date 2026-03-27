@@ -208,7 +208,7 @@ public class OrderValidationPluginTests
 
 ```typescript
 // Namespace pattern para evitar contaminación del scope global
-namespace Capgemini.Sales.Opportunity {
+namespace Fran.Sales.Opportunity {
     export async function onFormLoad(executionContext: Xrm.Events.EventContext): Promise<void> {
         const formContext = executionContext.getFormContext();
         

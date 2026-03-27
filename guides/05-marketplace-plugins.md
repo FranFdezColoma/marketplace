@@ -21,7 +21,7 @@ copilot
 
 | Repositorio | Qué incluye |
 |-------------|-------------|
-| [FranFdezColoma/capgemini-marketplace](https://github.com/FranFdezColoma/capgemini-marketplace) | Power Platform, Dataverse, Dynamics 365 |
+| [FranFdezColoma/fran-marketplace](https://github.com/FranFdezColoma/fran-marketplace) | Power Platform, Dataverse, Dynamics 365 |
 | [microsoft/power-platform-skills](https://github.com/microsoft/power-platform-skills) | Power Pages, Model-Driven Apps (oficial Microsoft) |
 | [microsoft/skills](https://github.com/microsoft/skills) | Azure SDK: .NET, Python, TypeScript, Java |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Todos los stacks: React, Django, Go, Docker, CI/CD... |
@@ -31,8 +31,8 @@ copilot
 ### Power Platform / Dataverse
 
 ```bash
-> /plugin marketplace add FranFdezColoma/capgemini-marketplace
-> /plugin install dynamics365-powerplatform@capgemini-marketplace
+> /plugin marketplace add FranFdezColoma/fran-marketplace
+> /plugin install dynamics365-powerplatform@fran-marketplace
 
 > /plugin marketplace add microsoft/power-platform-skills
 > /plugin install power-pages@power-platform-skills

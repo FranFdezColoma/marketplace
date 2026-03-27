@@ -60,7 +60,7 @@ Analiza tablas estándar reutilizables (Contact, Account, Product, etc.) para ev
 
 ### Paso 4: Diseñar el Modelo de Datos
 
-Aplica estas reglas del estándar Capgemini (ver [naming-conventions.md](../../references/naming-conventions.md)):
+Aplica estas reglas del estándar Fran (ver [naming-conventions.md](../../references/naming-conventions.md)):
 
 #### Nomenclatura de Tablas
 

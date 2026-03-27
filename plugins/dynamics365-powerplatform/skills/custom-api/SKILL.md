@@ -126,7 +126,7 @@ using System;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 
-namespace Capgemini.Sales
+namespace Fran.Sales
 {
     /// <summary>
     /// Plugin handler for Custom API: src_CalculateOrderTotal
@@ -251,7 +251,7 @@ async function calculateOrderTotal(
 ```powershell
 # Build y push del plugin handler
 dotnet build -c Release
-pac plugin push --pluginFile ./bin/Release/net462/Capgemini.Sales.dll
+pac plugin push --pluginFile ./bin/Release/net462/Fran.Sales.dll
 
 # Asociar el handler a la Custom API (en Plugin Registration Tool o portal)
 # Plugin type: CalculateOrderTotalHandler

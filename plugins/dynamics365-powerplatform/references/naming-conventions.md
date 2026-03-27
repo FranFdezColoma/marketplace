@@ -1,6 +1,6 @@
-# Naming Conventions — Power Platform & Dataverse (Capgemini)
+# Naming Conventions — Power Platform & Dataverse (Fran)
 
-Referencia estándar de nomenclatura para todos los artefactos desarrollados por Capgemini en Microsoft Power Platform, Dataverse y Dynamics 365.
+Referencia estándar de nomenclatura para todos los artefactos desarrollados por Fran en Microsoft Power Platform, Dataverse y Dynamics 365.
 
 **Publisher prefix de ejemplo**: `src_`
 
@@ -52,7 +52,7 @@ No se modifica el nombre. Se usan tal cual: `account`, `contact`, `opportunity`,
 | Artefacto | Formato | Ejemplo |
 |-----------|---------|---------|
 | Nombre del control | `{Publisher}_{ControlName}` — PascalCase | `src_CustomerRating`, `src_MapViewer` |
-| Namespace | `{Company}.{Domain}` — PascalCase | `Capgemini.Sales` |
+| Namespace | `{Company}.{Domain}` — PascalCase | `Fran.Sales` |
 | Fichero TypeScript principal | `index.ts` | `index.ts` |
 | Componentes React | PascalCase + `Component` | `CustomerRatingComponent.tsx` |
 | Servicios/helpers | camelCase + `Service`/`Helper` | `dataverseService.ts`, `formatHelper.ts` |
@@ -110,7 +110,7 @@ No se modifica el nombre. Se usan tal cual: `account`, `contact`, `opportunity`,
 ### Namespaces Web Resources
 
 ```typescript
-namespace Capgemini.Sales.Opportunity {
+namespace Fran.Sales.Opportunity {
     export async function onFormLoad(executionContext: Xrm.Events.EventContext): Promise<void> { }
 }
 ```
@@ -136,8 +136,8 @@ Patrón: `{Company}.{Module}.{Entity}` — PascalCase
 
 | Elemento | Formato | Ejemplo |
 |----------|---------|---------|
-| Nombre de solución | PascalCase + dominio | `CapgeminiSalesCore`, `CustomerServiceModule` |
-| Publisher | PascalCase | `Capgemini` |
+| Nombre de solución | PascalCase + dominio | `FranSalesCore`, `CustomerServiceModule` |
+| Publisher | PascalCase | `Fran` |
 | Publisher prefix | minúsculas (3-8 chars) | `src`, `cap`, `cgm` |
 | Versión | SemVer `Major.Minor.Patch.Build` | `1.0.0.0`, `2.3.1.0` |
 

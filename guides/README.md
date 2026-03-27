@@ -11,7 +11,7 @@ Al terminar esta guía serás capaz de:
 - Usar GitHub Copilot CLI como agente que planifica, edita ficheros y ejecuta comandos de forma autónoma
 - Elegir el modelo adecuado (Sonnet / Haiku / Opus / GPT-4.1...) según la tarea para optimizar coste y velocidad
 - Configurar custom instructions, skills y custom agents para tu stack
-- Instalar plugins del marketplace de Capgemini y de la comunidad
+- Instalar plugins del marketplace de Fran y de la comunidad
 - Conectar el agente a sistemas externos mediante servidores MCP
 
 ## Índice

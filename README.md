@@ -11,7 +11,7 @@ La guía cubre desde la instalación hasta la configuración de **Instructions, 
 
 ## ¿Qué es esto?
 
-Un **marketplace de plugins** desarrollado por Capgemini que extiende las capacidades de GitHub Copilot CLI con agentes, skills e instrucciones especializadas para cada stack tecnológico.
+Un **marketplace de plugins** desarrollado por Fran que extiende las capacidades de GitHub Copilot CLI con agentes, skills e instrucciones especializadas para cada stack tecnológico.
 
 Cada plugin agrupa en una sola unidad instalable:
 - 🤖 **Custom Agents** con roles definidos (arquitecto, desarrollador, documentador...)
@@ -37,10 +37,10 @@ Un plugin instalado una vez está disponible en GitHub Copilot CLI y en VS Code 
 ```bash
 # 1. Registrar el marketplace
 copilot
-> /plugin marketplace add FranFdezColoma/capgemini-marketplace
+> /plugin marketplace add FranFdezColoma/fran-marketplace
 
 # 2. Instalar el plugin de tu stack
-> /plugin install dynamics365-powerplatform@capgemini-marketplace
+> /plugin install dynamics365-powerplatform@fran-marketplace
 
 # 3. Verificar
 > /plugin list
@@ -71,4 +71,4 @@ plugins/mi-stack/
 
 ## Licencia
 
-MIT License — Capgemini
+MIT License — Fran

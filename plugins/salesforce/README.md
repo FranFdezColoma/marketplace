@@ -1,13 +1,13 @@
 # salesforce
 
-Plugin de Capgemini para desarrollo en **Salesforce**: Apex, Lightning Web Components (LWC) y SFDX.
+Plugin de Fran para desarrollo en **Salesforce**: Apex, Lightning Web Components (LWC) y SFDX.
 
 > ⚠️ **En construcción** — Este plugin está en desarrollo activo. Consulta [las contribuciones](#contribuir) si quieres ayudar.
 
 ## Instalación
 
 ```bash
-/plugin install salesforce@capgemini-marketplace
+/plugin install salesforce@fran-marketplace
 ```
 
 O localmente:

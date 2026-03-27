@@ -50,7 +50,7 @@ Usa `AskUserQuestion` si la información no está clara:
 pac auth list
 
 # Generar tipos Early Bound para la entidad
-pac modelbuilder build --buildertypes entity --outputDirectory ./EarlyBound --namespace Capgemini.DataModel
+pac modelbuilder build --buildertypes entity --outputDirectory ./EarlyBound --namespace Fran.DataModel
 ```
 
 Lee los tipos generados para conocer los nombres exactos de columnas y relaciones.
@@ -94,7 +94,7 @@ Genera siempre con esta estructura:
 using System;
 using Microsoft.Xrm.Sdk;
 
-namespace Capgemini.[Domain]
+namespace Fran.[Domain]
 {
     /// <summary>
     /// Plugin triggered on [Message] of [Entity] ([Stage]).
@@ -143,7 +143,7 @@ using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 // using [EarlyBoundNamespace]; // Añadir tras generar Early Bound
 
-namespace Capgemini.[Domain]
+namespace Fran.[Domain]
 {
     internal class [PluginName]Handler
     {

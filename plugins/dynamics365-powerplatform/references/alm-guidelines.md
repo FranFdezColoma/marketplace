@@ -1,4 +1,4 @@
-# ALM Guidelines — Power Platform (Capgemini)
+# ALM Guidelines — Power Platform (Fran)
 
 Guía de Application Lifecycle Management para soluciones Microsoft Power Platform y Dataverse.
 
@@ -54,9 +54,9 @@ Guía de Application Lifecycle Management para soluciones Microsoft Power Platfo
 ### Estructura Recomendada (Layered)
 
 ```
-CapgeminiBase (v1.0.0)           ← Tablas, columnas base, tipos globales
-└── CapgeminiSalesModule (v1.0.0) ← Componentes específicos de ventas
-    └── CapgeminiSalesFlows (v1.0.0) ← Solo Power Automate flows del módulo
+FranBase (v1.0.0)           ← Tablas, columnas base, tipos globales
+└── FranSalesModule (v1.0.0) ← Componentes específicos de ventas
+    └── FranSalesFlows (v1.0.0) ← Solo Power Automate flows del módulo
 ```
 
 ### Qué incluir en cada Solution
