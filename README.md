@@ -37,10 +37,10 @@ Un plugin instalado una vez está disponible en GitHub Copilot CLI y en VS Code 
 ```bash
 # 1. Registrar el marketplace
 copilot
-> /plugin marketplace add FranFdezColoma/fran-marketplace
+> /plugin marketplace add FranFdezColoma/marketplace
 
 # 2. Instalar el plugin de tu stack
-> /plugin install dynamics365-powerplatform@fran-marketplace
+> /plugin install dynamics365-powerplatform@marketplace
 
 # 3. Verificar
 > /plugin list
