@@ -17,6 +17,12 @@ Se **carga automáticamente al inicio de cada sesión**. No tienes que recordár
 | **Proyecto** (solo este repositorio) | `.github/copilot-instructions.md` |
 | **Global** (todos tus proyectos) | `~/.copilot/instructions.md` |
 
+### ❓ ¿De dónde las descargo?
+
+> Las Custom Instructions **no se instalan ni se descargan** — las escribes tú. Son simplemente un fichero de texto que creas en tu repositorio.
+>
+> Si instalas un plugin del marketplace (sección 3), el plugin incluye sus propias instrucciones optimizadas para ese stack. Puedes copiar ese contenido como punto de partida y adaptarlo a tu proyecto.
+
 ### 🛠️ Cómo crearlo
 
 **Opción rápida — `/init`:** el agente analiza el proyecto y genera el fichero automáticamente.
@@ -56,26 +62,50 @@ copilot
 
 ## 🔀 Los tres mecanismos de personalización
 
-Copilot CLI tiene tres formas de personalizar el comportamiento del agente. Cada una tiene un propósito distinto:
+Copilot CLI tiene tres formas de personalizar el comportamiento del agente. Aquí va una explicación sencilla:
 
-| | Custom Instructions | Skills | Custom Agents |
-|---|---|---|---|
-| **Qué es** | Contexto permanente del proyecto | Conocimiento especializado de un dominio | Perfil con rol, herramientas y modelo definidos |
-| **Cuándo está activo** | Siempre, en toda la sesión | Solo cuando el contexto lo requiere | Solo cuando lo seleccionas explícitamente |
-| **Se activa** | Automáticamente al arrancar | Automáticamente por palabras clave | Manualmente desde el selector de agentes |
-| **Ejemplo** | "Usa TypeScript, responde en español" | "Al revisar código, aplica OWASP y muestra severidad" | `solution-architect`: solo lee, no modifica |
+### 🧠 Custom Instructions — "La memoria del proyecto"
 
-> 💡 Si usas un **plugin del marketplace** (sección 3), ya tienes skills y custom agents listos. No necesitas crearlos tú.
+Imagina que contratas a un consultor nuevo. Lo primero que haces es darle un documento de onboarding: qué stack usáis, cómo llamáis las cosas, qué no debe tocar sin permiso, estructura/directorios del repo/proyecto. Eso son las **Custom Instructions**. (Siempre se alojan a nivel de proyecto, cada proyecto debe tener las suyas)
 
-## 🛠️ Skills
+- Se cargan **automáticamente** al arrancar el CLI
+- Están **siempre activas** durante toda la sesión
+- Son tuyas: las creas tú, para tu proyecto
 
-Una skill es un conjunto de instrucciones especializadas que el agente carga **automáticamente** cuando detecta que la tarea lo requiere, basándose en palabras clave.
+**Cuándo usarlas:** siempre. Todo proyecto debería tener un fichero de instrucciones.
 
-**Cómo se activan:** describe la tarea con naturalidad. El agente detecta el contexto y carga las skills relevantes.
+---
+
+### 🛠️ Skills — "El manual de procedimientos"
+
+Una skill es un conjunto de instrucciones especializadas que el agente usa **cuando la situación lo requiere**. No tienes que activarlas manualmente — el agente las detecta por las palabras que usas.
+
+**Cuándo se activan:** cuando describes tu tarea con naturalidad. Si dices "revisa este código", el agente activa la skill de code review. Si dices "crea un proyecto .NET", activa la skill de scaffolding.
 
 ```bash
 > /skills   # Ver las skills activas en la sesión
 ```
+
+**Cuándo usarlas:** cuando quieres que el agente aplique conocimiento especializado de dominio (seguridad, arquitectura, convenciones de un framework...) sin tener que explicárselo cada vez.
+
+---
+
+### 🤖 Custom Agents — "El perfil del especialista"
+
+Un Custom Agent es como elegir a qué persona de tu equipo le vas a pedir la tarea. Cada agente tiene un rol definido, unas herramientas y un nivel de autonomía concretos.
+
+- Se seleccionan **manualmente** desde el selector de agentes al iniciar la conversación
+- Cada agente hace cosas distintas: uno diseña, otro implementa, otro documenta
+
+**Cuándo usarlos:** cuando necesitas el "modo" correcto para la tarea — no quieres que el arquitecto toque código, ni que el documentador tome decisiones de diseño.
+
+---
+
+> 💡 **Si instalas un plugin del marketplace** (sección 3), ya tienes skills y custom agents listos para tu stack. No necesitas crearlos tú desde cero.
+
+---
+
+## 🛠️ Skills en acción
 
 ### Ejemplo — Code Reviewer 🔴🟡🔵
 
@@ -115,11 +145,9 @@ Una skill es un conjunto de instrucciones especializadas que el agente carga **a
   ✓ Ejecuta: dotnet run --project MyApi
 ```
 
-## 🤖 Custom Agents
+---
 
-Un Custom Agent es un perfil especializado que puedes seleccionar para una tarea concreta. Cada agente tiene un **rol definido**, unas **herramientas específicas** y un **modelo de IA** configurado.
-
-**Cómo se seleccionan:** desde el selector de agentes al iniciar una conversación.
+## 🤖 Custom Agents en acción
 
 ### Agente — Solution Architect 🏛️
 
@@ -168,7 +196,15 @@ Un Custom Agent es un perfil especializado que puedes seleccionar para una tarea
   ✓ CHANGELOG.md — entrada para los cambios recientes
 ```
 
-## 📌 ¿Cuándo usar cada uno?
+---
+
+## 📌 ¿Cuándo uso cada uno?
+
+En pocas palabras:
+
+- **Custom Instructions** → para el contexto permanente del proyecto (siempre activas)
+- **Skills** → para conocimiento especializado que se activa automáticamente
+- **Custom Agents** → para elegir manualmente el "modo" o "perfil" del asistente
 
 | Situación | Usa... |
 |-----------|--------|
@@ -179,6 +215,8 @@ Un Custom Agent es un perfil especializado que puedes seleccionar para una tarea
 | Quiero implementar una feature con tests incluidos | **Custom Agent** (Developer) |
 | Necesito generar documentación técnica de un módulo | **Custom Agent** (Documenter) |
 | Instalo el plugin de mi stack | Obtengo **skills + agents** listos para usar |
+
+---
 
 ## 📚 Referencias
 

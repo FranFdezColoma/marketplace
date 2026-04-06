@@ -1,6 +1,6 @@
 # 5. MCP: conexión a servicios externos
 
-[← Anterior: Custom Instructions, Skills y Agents](04-custom-instructions-skills-agents.md) | [← Volver al índice](README.md)
+[← Anterior: Custom Instructions, Skills y Agents](04-custom-instructions-skills-agents.md) | [Siguiente: Ejemplo práctico →](06-ejemplo-practico.md)
 
 ---
 
@@ -131,4 +131,4 @@ copilot
 
 ---
 
-[← Anterior: Custom Instructions, Skills y Agents](04-custom-instructions-skills-agents.md) | [← Volver al índice](README.md)
+[← Anterior: Custom Instructions, Skills y Agents](04-custom-instructions-skills-agents.md) | [Siguiente: Ejemplo práctico →](06-ejemplo-practico.md)

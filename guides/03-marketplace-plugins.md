@@ -2,9 +2,15 @@
 
 [← Anterior: Instalación](02-instalacion.md) | [Siguiente: Custom Instructions, Skills y Agents →](04-custom-instructions-skills-agents.md)
 
+## ¿Qué es el Marketplace?
+
+El marketplace de Agent Skills es un **ecosistema de repositorios públicos en GitHub** donde Microsoft, Anthropic, GitHub y la comunidad publican colecciones de skills, plugins e instrucciones listas para usar.
+
+El estándar [agentskills.io](https://agentskills.io) garantiza compatibilidad: un skill publicado en cualquier marketplace funciona en **GitHub Copilot CLI, Claude Code y VS Code agent mode** indistintamente.
+
 ---
 
-## �� ¿Qué es un Plugin?
+## ¿Qué es un Plugin?
 
 Un plugin es un **bundle instalable** del marketplace que agrupa skills, custom agents e instrucciones especializadas para un stack tecnológico. Con un solo comando tienes todo listo para trabajar.
 
@@ -41,7 +47,15 @@ copilot
 > /plugin install dataverse@awesome-copilot 
 
 ```
-Incluye un ejemplo de skills
+
+Una vez instalado, los skills están disponibles en tu sesión:
+
+```bash
+copilot
+> /dataverse-schema "Diseña las tablas para un módulo de gestión de incidencias"
+> /plugin-builder "Crea un plugin pre-operation en Incident que valide la prioridad"
+> /unit-test-builder "Genera tests unitarios para IncidentValidationPlugin.cs"
+> /code-review "Revisa IncidentPlugin.cs aplicando mejores prácticas de Dataverse"
 ```
 
 ## 🔧 Troubleshooting

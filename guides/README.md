@@ -19,17 +19,18 @@ Al terminar esta guía serás capaz de:
 | # | Sección | Descripción |
 |---|---------|-------------|
 | 1 | [🤖 ¿Qué es GitHub Copilot CLI?](01-que-es.md) | Modos de ejecución, agentes integrados, selección de modelo |
-| 2 | [🛠️ Instalación y primeros pasos](02-instalacion.md) | Prerrequisitos, instalar el CLI, autenticación y comandos esenciales |
+| 2 | [🛠️ Instalación y primeros pasos](02-instalacion.md) | Prerrequisitos, licencia, instalar el CLI, autenticación y preguntas frecuentes |
 | 3 | [🏪 Marketplace y Plugins](03-marketplace-plugins.md) | Qué son los plugins, repositorios clave y cómo instalarlos con ejemplos |
 | 4 | [⚙️ Custom Instructions, Skills y Agents](04-custom-instructions-skills-agents.md) | Instrucciones de proyecto, skills especializadas y custom agents con roles |
 | 5 | [🔗 MCP: conexión a servicios externos](05-mcp.md) | Qué es MCP, configuración y ejemplo completo con Azure DevOps |
+| 6 | [🎯 Ejemplo práctico de principio a fin](06-ejemplo-practico.md) | Walkthrough completo: instalar plugin, custom instructions, skill y agent |
 
 ## ¿Por dónde empezar?
 
 | Si eres... | Ruta recomendada |
 |------------|-----------------|
-| Nuevo en Copilot CLI | [01](01-que-es.md) → [02](02-instalacion.md) → [03](03-marketplace-plugins.md) |
-| Desarrollador con Copilot, quiero sacar más partido | [03](03-marketplace-plugins.md) → [04](04-custom-instructions-skills-agents.md) |
+| Nuevo en Copilot CLI | [01](01-que-es.md) → [02](02-instalacion.md) → [03](03-marketplace-plugins.md) → [06](06-ejemplo-practico.md) |
+| Desarrollador con Copilot, quiero sacar más partido | [03](03-marketplace-plugins.md) → [04](04-custom-instructions-skills-agents.md) → [06](06-ejemplo-practico.md) |
 | Solo me interesa conectar un sistema externo (Azure DevOps, Dataverse...) | [03](03-marketplace-plugins.md) → [05](05-mcp.md) |
 
 ---
