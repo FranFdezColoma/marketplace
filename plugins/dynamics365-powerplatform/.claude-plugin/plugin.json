@@ -15,7 +15,6 @@
     "./agents/documenter.md"
   ],
   "skills": [
-    "./skills/dataverse-schema",
     "./skills/plugin-builder",
     "./skills/pcf-builder",
     "./skills/flow-builder",
