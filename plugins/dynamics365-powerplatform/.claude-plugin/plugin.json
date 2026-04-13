@@ -15,17 +15,17 @@
     "./agents/documenter.md"
   ],
   "skills": [
-    "./skills/dataverse-schema/SKILL.md",
-    "./skills/plugin-builder/SKILL.md",
-    "./skills/pcf-builder/SKILL.md",
-    "./skills/flow-builder/SKILL.md",
-    "./skills/custom-api/SKILL.md",
-    "./skills/alm-pipeline/SKILL.md",
-    "./skills/security-design/SKILL.md",
-    "./skills/doc-generator/SKILL.md",
-    "./skills/code-review/SKILL.md",
-    "./skills/unit-test-builder/SKILL.md",
-    "./skills/pull-request/SKILL.md"
+    "./skills/dataverse-schema",
+    "./skills/plugin-builder",
+    "./skills/pcf-builder",
+    "./skills/flow-builder",
+    "./skills/custom-api",
+    "./skills/alm-pipeline",
+    "./skills/security-design",
+    "./skills/doc-generator",
+    "./skills/code-review",
+    "./skills/unit-test-builder",
+    "./skills/pull-request"
   ],
   "keywords": [
     "power-platform",
