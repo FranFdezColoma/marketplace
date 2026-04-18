@@ -1,0 +1,94 @@
+{
+  "name": "dynamics365-powerplatform",
+  "description": "Comprehensive plugin for Dynamics 365 Customer Engagement and Power Platform development. Provides specialized agents for solution architecture, development, and documentation with 10 skills covering the full D365/PP development lifecycle.",
+  "version": "2.0.0",
+  "keywords": [
+    "dynamics365",
+    "power-platform",
+    "dataverse",
+    "d365",
+    "crm",
+    "pcf",
+    "plugins",
+    "custom-api",
+    "power-automate",
+    "model-driven-apps"
+  ],
+  "author": {
+    "name": "Francisco Fernandez Coloma",
+    "url": "https://github.com/FranFdezColoma"
+  },
+  "repository": "https://github.com/FranFdezColoma/marketplace",
+  "license": "MIT",
+  "agents": [
+    {
+      "name": "dynamics365-powerplatform:solution-architect",
+      "source": "./agents/solution-architect.md"
+    },
+    {
+      "name": "dynamics365-powerplatform:developer",
+      "source": "./agents/developer.md"
+    },
+    {
+      "name": "dynamics365-powerplatform:documenter",
+      "source": "./agents/documenter.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "code-review",
+      "source": "./skills/code-review"
+    },
+    {
+      "name": "plugin-builder",
+      "source": "./skills/plugin-builder"
+    },
+    {
+      "name": "custom-api-builder",
+      "source": "./skills/custom-api-builder"
+    },
+    {
+      "name": "cloud-flow-builder",
+      "source": "./skills/cloud-flow-builder"
+    },
+    {
+      "name": "pcf-builder",
+      "source": "./skills/pcf-builder"
+    },
+    {
+      "name": "doc-generator",
+      "source": "./skills/doc-generator"
+    },
+    {
+      "name": "arc42",
+      "source": "./skills/arc42"
+    },
+    {
+      "name": "jira-issue-creator",
+      "source": "./skills/jira-issue-creator"
+    },
+    {
+      "name": "unit-test-builder",
+      "source": "./skills/unit-test-builder"
+    },
+    {
+      "name": "pull-request",
+      "source": "./skills/pull-request"
+    }
+  ],
+  "commands": [],
+  "references": [
+    {
+      "name": "naming-conventions",
+      "source": "./references/naming-conventions.md"
+    },
+    {
+      "name": "dataverse-patterns",
+      "source": "./references/dataverse-patterns.md"
+    },
+    {
+      "name": "alm-guidelines",
+      "source": "./references/alm-guidelines.md"
+    }
+  ]
+}
