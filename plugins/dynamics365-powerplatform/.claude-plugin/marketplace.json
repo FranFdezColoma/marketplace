@@ -1,0 +1,26 @@
+{
+  "name": "dynamics365-powerplatform",
+  "owner": {
+    "name": "Francisco Fernandez Coloma",
+    "url": "https://github.com/FranFdezColoma"
+  },
+  "plugins": [
+    {
+      "name": "dynamics365-powerplatform",
+      "description": "Comprehensive plugin for Dynamics 365 CE and Power Platform development with specialized agents and skills.",
+      "source": ".",
+      "skills": [
+        "./skills/code-review",
+        "./skills/plugin-builder",
+        "./skills/custom-api-builder",
+        "./skills/cloud-flow-builder",
+        "./skills/pcf-builder",
+        "./skills/doc-generator",
+        "./skills/arc42",
+        "./skills/jira-issue-creator",
+        "./skills/unit-test-builder",
+        "./skills/pull-request"
+      ]
+    }
+  ]
+}
